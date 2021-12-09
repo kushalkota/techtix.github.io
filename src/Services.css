@@ -1,0 +1,123 @@
+#services {
+    height: 150vh;
+}
+
+.service-intro {
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-intro h1 {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.service-intro p {
+    font-size: 1.5vw;
+    width: 60%;
+
+}
+
+.service-types {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.service-card {
+    width: 26%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 20px;
+    background-image:linear-gradient(to right, #0099ff 0%, #66ffcc 100%);
+    background-size: 0%;
+    transition: background-size 0.5s;
+}
+
+.service-card h1{
+    font-size: 2vw;
+}
+
+.service-card p{
+    font-size: 1vw;
+    text-align: center;
+}
+
+.service-card:hover {
+    background-size: cover;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    #services {
+        height: 350vh;
+    }
+    
+    .service-intro {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 10%
+    }
+    
+    .service-intro h1 {
+        font-size: 6vw;
+        font-weight: bold;
+    }
+    
+    .service-intro p {
+        font-size: 3vw;
+        width: 80%;
+        text-align: center;
+    
+    }
+    
+    .service-types {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 90%;
+    }
+    
+    .service-card {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 20px;
+    }
+    
+    .service-card h1{
+        font-size: 6vw;
+    }
+    
+    .service-card p{
+        font-size: 3vw;
+        width: 90%;
+        text-align: center;
+    }
+    
+    .service-card:hover {
+        background: linear-gradient(to right, #0099ff 0%, #66ffcc 100%);;
+        color: white;
+    }
+}
