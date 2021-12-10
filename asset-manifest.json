@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/techtix/static/css/main.eebcc02e.chunk.css",
-    "main.js": "/techtix/static/js/main.09711459.chunk.js",
-    "main.js.map": "/techtix/static/js/main.09711459.chunk.js.map",
+    "main.css": "/techtix/static/css/main.374f8fb8.chunk.css",
+    "main.js": "/techtix/static/js/main.4c507b1c.chunk.js",
+    "main.js.map": "/techtix/static/js/main.4c507b1c.chunk.js.map",
     "runtime-main.js": "/techtix/static/js/runtime-main.be285cdc.js",
     "runtime-main.js.map": "/techtix/static/js/runtime-main.be285cdc.js.map",
     "static/css/2.a44c59e0.chunk.css": "/techtix/static/css/2.a44c59e0.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3998ddf5.chunk.js.map": "/techtix/static/js/2.3998ddf5.chunk.js.map",
     "index.html": "/techtix/index.html",
     "static/css/2.a44c59e0.chunk.css.map": "/techtix/static/css/2.a44c59e0.chunk.css.map",
-    "static/css/main.eebcc02e.chunk.css.map": "/techtix/static/css/main.eebcc02e.chunk.css.map",
+    "static/css/main.374f8fb8.chunk.css.map": "/techtix/static/css/main.374f8fb8.chunk.css.map",
     "static/js/2.3998ddf5.chunk.js.LICENSE.txt": "/techtix/static/js/2.3998ddf5.chunk.js.LICENSE.txt",
     "static/media/IPHONE 13 PRO_prev_ui.3a0de751.png": "/techtix/static/media/IPHONE 13 PRO_prev_ui.3a0de751.png",
     "static/media/MAC BOOK PRO.6568f8f4.png": "/techtix/static/media/MAC BOOK PRO.6568f8f4.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.be285cdc.js",
     "static/css/2.a44c59e0.chunk.css",
     "static/js/2.3998ddf5.chunk.js",
-    "static/css/main.eebcc02e.chunk.css",
-    "static/js/main.09711459.chunk.js"
+    "static/css/main.374f8fb8.chunk.css",
+    "static/js/main.4c507b1c.chunk.js"
   ]
 }
