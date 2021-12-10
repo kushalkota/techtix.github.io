@@ -15,12 +15,12 @@ export default function WhyChooseUs() {
                    <h2>3 Month Guarantee</h2>
                 </div>
                 <div className='ts-pr box'>
-                    <FontAwesomeIcon icon={faShippingFast} className="fas fa-shipping-fast" />
+                    <FontAwesomeIcon icon={faShippingFast} className="wcu-font" />
                     <h2>Free Shipping</h2>
                 </div>
 
                 <div className='ts-ds box'>
-                <FontAwesomeIcon icon={faHeadset} className="fas fa-headset" />
+                <FontAwesomeIcon icon={faHeadset} className="wcu-font" />
                     <h2>Dedicated Support</h2>
                 </div>
             </div>

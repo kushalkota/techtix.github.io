@@ -49,11 +49,7 @@
 
 .fas {
     font-size: 6vw;
-    border: 2px dotted #3573D1;
     color: #3573D1;
-    margin: 5% 0;
-    padding: 8%;
-    border-radius: 50%;
 }
 
 .cu-card p {
@@ -114,12 +110,8 @@
     }
     
     .fas {
-        font-size: 1%;
-        border: 2px dotted #3573D1;
+        font-size: 12vw;
         color: #3573D1;
-        margin: 5% 0;
-        padding: 8%;
-        border-radius: 50%;
     }
     
     .cu-card p {
