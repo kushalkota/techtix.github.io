@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
         <div className='why-choose-us'>
             <h1 className='wcu-title'>Why Choose Us</h1>
             <div className='wcu-content'>
-                <img className='ts-img-cont' src={img1} />
+                <img className='ts-img-cont' src={img1} alt='tech support' />
                 <div className='ts-g box'>
                    <p>100%</p>
                    <h2>3 Month Guarantee</h2>

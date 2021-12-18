@@ -7,8 +7,8 @@ export default function Navbar() {
     return (
         <div id="navbar">
         <div className="nav-title">
-            <img className='company-logo' src={logo1} />
-            <img className='company-name' src={logo2} />
+            <img className='company-logo' src={logo1} alt='company logo' />
+            <img className='company-name' src={logo2} alt='company name' />
         </div>
         <div className="nav-content-body">
             <div className="nav-content"><a href='#home'>Home</a></div>

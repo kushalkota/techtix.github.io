@@ -6,7 +6,7 @@ import image4 from './client demands/img-4.png';
 import image5 from './client demands/img-5.png';
 import image6 from './client demands/img-6.png';
 import './Services.css';
-
+ksdfkdsfahbdskdahsdfkfsdns
 export default function Services() {
     return (
         <div id='services'>
@@ -24,32 +24,32 @@ export default function Services() {
         </div>
         <div className="service-types">
             <div className="service-card">
-                <img src={image1} />
+                <img src={image1} alt='img1' />
                 <h1>Touch Replacement</h1>
                 <p>TECHTIX is offering Touch Replacement with 3 months warranty</p>
             </div>
             <div className="service-card">
-                <img src={image2} />
+                <img src={image2} alt='img2' />
                 <h1>Display Replacement</h1>
                 <p>TECHTIX is offering Display Replacement with 3 months warranty</p>
             </div>
             <div className="service-card">
-                <img src={image3} />
+                <img src={image3} alt='img3' />
                 <h1>Battery Replacement</h1>
                 <p>TECHTIX is offering Battery Replacement with 3 months warranty</p>
             </div>
             <div className="service-card">
-                <img src={image4} />
+                <img src={image4} alt='img4' />
                 <h1>Camera Replacement</h1>
                 <p>TECHTIX is offering Camera Replacement with 3 months warranty</p>
             </div>
             <div className="service-card">
-                <img src={image5} />
+                <img src={image5} alt='img5' />
                 <h1>Speaker Replacement</h1>
                 <p>TECHTIX is offering Speaker Replacement with 3 months warranty</p>
             </div>
             <div className="service-card">
-                <img src={image6} />
+                <img src={image6} alt='img6' />
                 <h1>Water Damage Repair</h1>
                 <p>TECHTIX is offering Water Damage Repair</p>
             </div>

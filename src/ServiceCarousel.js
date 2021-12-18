@@ -6,8 +6,8 @@ import img3 from "./client demands/ONE PLUS_prev_ui.png";
 import img4 from "./client demands/MI_prev_ui.png";
 import img5 from "./client demands/IPHONE 13 PRO_prev_ui.png";
 import OwlCarousel from "react-owl-carousel";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 //Owl Carousel Settings
 const options = {
   margin: 30,
@@ -47,37 +47,36 @@ export default function ServiceCarousel() {
           pickup and drop services at Techtix
         </p>
       </div>
-
       <OwlCarousel className="owl-carousel owl-theme" {...options}>
         <div className="item">
-          <img src={img1} />
+          <img src={img1} alt="vivo" />
         </div>
         <div className="item">
-          <img src={img2} />
+          <img src={img2} alt="oppo" />
         </div>
         <div className="item">
-          <img src={img3} />
+          <img src={img3} alt="oneplus" />
         </div>
         <div className="item">
-          <img src={img4} />
+          <img src={img4} alt="mi" />
         </div>
         <div className="item">
-          <img src={img5} />
+          <img src={img5} alt="iphone" />
         </div>
         <div className="item">
-          <img src={img1} />
+          <img src={img1} alt="vivo" />
         </div>
         <div className="item">
-          <img src={img2} />
+          <img src={img2} alt="oppo" />
         </div>
         <div className="item">
-          <img src={img3} />
+          <img src={img3} alt="oneplus" />
         </div>
         <div className="item">
-          <img src={img4} />
+          <img src={img4} alt="mi" />
         </div>
         <div className="item">
-          <img src={img5} />
+          <img src={img5} alt="iphone" />
         </div>
       </OwlCarousel>
     </div>

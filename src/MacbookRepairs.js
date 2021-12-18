@@ -13,22 +13,22 @@ export default function MacbookRepairs() {
                 <h1 className="macbook-repairs-title">Apple Macbook Repair</h1>
                 <div className="macbook-repair-details">
                     <div className="mb-card">
-                        <img src={img2} />
+                        <img src={img2} alt='mac motherboard' />
                         <h2>Motherboard Replacement</h2>
                         <p>New had happen unable uneasy. Drawings pronounce can be followed improved out.</p>
                     </div>
                     <div className="mb-card">
-                        <img src={img3} />
+                        <img src={img3} alt='mac-display' />
                         <h2>Display Replacement</h2>
                         <p>New had happen unable uneasy. Drawings pronounce can be followed improved out.</p>
                     </div>
                     <div className="mb-card">
-                        <img src={img4} />
+                        <img src={img4} alt='mac battery' />
                         <h2>Battery Replacement</h2>
                         <p>New had happen unable uneasy. Drawings pronounce can be followed improved out.</p>
                     </div>
                     <div className="mb-card">
-                        <img src={img5} />
+                        <img src={img5} alt='mac harddisk' />
                         <h2>Hard Disk Replacement</h2>
                         <p>New had happen unable uneasy. Drawings pronounce can be followed improved out.</p>
                     </div>
@@ -36,7 +36,7 @@ export default function MacbookRepairs() {
             </div>
 
             <div className="mb-img-container">
-                <img className='mb-img' src={img1} />
+                <img className='mb-img' src={img1} alt='mac repairs' />
             </div>
 
         </div>
